@@ -1,3 +1,58 @@
+body {
+    background-image: url(Image/back.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-origin: inherit;
+    background-size: cover;
+}
+
+#musique {
+    background-image: url(Image/voiture.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-origin: inherit;
+    background-size: cover;
+}
+
+#voiture {
+    background-image: url(Image/musique.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-origin: inherit;
+    background-size: cover;
+}
+
+#mainfocus {
+    width: 100vw;
+    height: 750px;
+    background-color: none(255, 217, 0, 0.589);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#titregestion {
+    width: 500px;
+    height: 170px;
+    background-color: rgb(255, 255, 255);
+    align-self: center;
+    text-align: center;
+    border-radius: 20px;
+    border-color: red;
+    border: 2px;
+}
+
+#titregestion h1 {
+    font-size: 65px;
+}
+
+
 /*/====================================================================================
 ==================================== CSS MUSIQUE ======================================
 =====================================================================================/*/
@@ -21,6 +76,10 @@ header {
 
 thead {
     background-color: rgb(51, 24, 87);
+    color: white;
+}
+
+#musica {
     color: white;
 }
 

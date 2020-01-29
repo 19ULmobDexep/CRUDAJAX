@@ -1,3 +1,7 @@
+AOS.init({
+    duration: 1200,
+})
+
 /*/ ===================== Afficher la liste de voitures =======================
 ============================================================================/*/
 
@@ -76,12 +80,11 @@ function reveal(idv) {
 
 function ajout() {
 
+    var form = new FormData(document.getElementById('formdata'));
+
     fetch('http://jihane.fr/dwmg2/api/voiture/create.php', {
             method: 'POST',
-            headers: {
-                'Accept': 'application/json',
-                'Content-type': 'application/json',
-            }
+            body: form
 
         })
         .then(function(response) {
